@@ -37,4 +37,7 @@ user = input ("What is your name?")
 greeting = "Hi" + " " + user
 celsius = float (input("What is the current temperature in celsius?\n"))
 fahrenheit = (celsius * 1.8) + 32
-print(greeting + " " + ",the current temperature in celsius is " + str(celsius) + "the current temperature in fahrenheit is" + str(fahrenheit))
+print(greeting + " " + ",the current temperature in celsius is " + str(celsius) + ",the current temperature in fahrenheit is " + str(fahrenheit))
+
+name1 = input("What is your name?\n")
+name2 = input("What is your name?\n")
