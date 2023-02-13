@@ -1,3 +1,4 @@
+import random
 print("*******************************") 
 print("*Welcome to the Caveman Battle*") 
 print("*******************************")
@@ -45,6 +46,13 @@ elif player1_choice == 2:
     #animals does some damage to player 1
     #display player 1 name and health
 elif player1_choice == 3: 
+    random_number = random.randint(1,10) 
+    print(random_number) 
+    if random_number <= 5: 
+        print("the manage to save some foods") 
+    else: 
+        print("they manage to ran away with their cloths")
+
     print('the animals manage to chase them out') 
 else: 
     print('Invalid input, sad day for the caveman')
